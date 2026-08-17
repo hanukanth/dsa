@@ -1,7 +1,7 @@
 CC := clang
 CFLAGS := -Wall -Wextra -std=c11
 TARGET := app
-SOURCES := main.c linked_list.c
+SOURCES := main.c linked_list.c arrays.c
 
 .PHONY: all clean
 

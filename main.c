@@ -26,6 +26,8 @@ int main(void)
     print_linked_list();
     return 20;
 #endif
+
+#if REVERSE_RECURSION
 int my_array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     int size = sizeof(my_array) / sizeof(my_array[0]);
     reverse_array(my_array, 0, size);
@@ -52,4 +54,11 @@ int my_array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     printf("Count of connected ones: %d\n", count);
     printf("Largest connected ones: %d\n", largest);
     return 0;
+#endif
+
+//matrix_add();
+//matrix_transpose();
+ matrix_mul();
+return 0;
+
 }
